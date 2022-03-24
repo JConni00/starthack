@@ -1,0 +1,21 @@
+{
+  "name": "hack",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "ethers": "^5.6.1",
+    "nft.storage": "^6.0.2"
+  }
+}
