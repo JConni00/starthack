@@ -25,7 +25,7 @@ export function loadHome(){
     // get smart contract
     const contract = new ethers.Contract(contactAddress, StartCertificates.abi, signer)
 
-    document.getElementById("mint").addEventListener("click", () => {
+    document.getElementById("mint").addEventListener("click", async () => {
 
         const metadataURI = uploadFile(client, imgData); // uploads file to get metadataURI
 
